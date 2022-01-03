@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.navbar {
+  width: 100%;
+  border: 1px solid white !important;
+  border-radius: 4px;
+}
+.navbar a {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.navbar-brand {
+  font-size: 1.5rem !important;
+  color: rgba(69, 4, 71, 0.582);
+  font-weight: bold;
+  border: 1px solid white !important;
+  padding: 3px;
+  border-radius: 4px;
+}
+.navbar a:hover {
+  color: rgba(255, 255, 255, 255) !important;
+  background-color: grey !important;
+}
+.selected {
+  font-weight: bold !important;
+  border-bottom: 1px solid blue !important;
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2em !important;
+  }
+}
+
+.btn {
+  border: 1px solid black !important;
+  background-color: black !important;
+  color: white !important;
+}
+.btn:hover {
+    background-color: grey !important;
+    color: white;
+}
+.brand-name {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(69, 4, 71, 0.582);
+  font-weight: bold;
+}
+h4 {
+  text-align: justify;
+}
+p {
+  padding-top: 100px !important;
+  text-align: center !important;
+  color: white !important;
+}
+
+.homeContent {
+  margin: 150px 150px;
+  color: white;
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+label {
+    background-color: black;
+    color: white;
+    border: 1px solid white !important;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: "Helvetica Neue", "Helvetica";
+}
+
+.homeContent>h1 {
+    background-color: black;
+    color: white;
+    border: 1px solid white !important;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: "Helvetica Neue", "Helvetica";
+}
+
+.servicesHeader {
+    margin-top: 60px;
+}
+
+.crudHeader {
+    margin-top: 60px;
+}
+
+.add-pr {
+    margin-left: 505px;
+    width: 100%;
+}
